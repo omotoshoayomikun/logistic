@@ -4,18 +4,6 @@
     justify-content: center;
     margin: 121px 0;
 }
-.text_log {
-    width: max-content;
-    background: var(--light-brown);
-    font-size: 14px;
-    padding: 3px 9px;
-    font-family: rubik-regular, serif;
-    font-weight: 400;
-    position: relative;
-    color: var(--dark-text);
-    font-weight: 400;
-    margin-bottom: 15px;
-}
 
 .text_log::before {
     content: '';

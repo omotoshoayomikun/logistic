@@ -14,3 +14,9 @@ export const Btn2 = ({text}) => {
     <button className={styles.btn2}>{text}</button>
   )
 }
+
+export const Btn3 = ({text}) => {
+  return (
+    <button className={styles.btn3}>{text}</button>
+  )
+}

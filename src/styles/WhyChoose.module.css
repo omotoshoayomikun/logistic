@@ -1,0 +1,16 @@
+.wrap{
+    width: 50%;
+    height: 897px;
+    margin-bottom: 95px;
+}
+.wrap:first-of-type{
+    background: #091242;
+}
+.wrap:last-of-type{
+    background: #F4F4F4;
+}
+.wrap:last-of-type::before{
+    content: '';
+    position: absolute;
+    background: #F4F4F4;
+}

@@ -38,3 +38,34 @@
    left: 145px;
 top: 20px;
 }
+
+.btn3 {
+    font-family: krub-regular, serif;
+    width: 194px;
+    height: 60px;
+    background: #091242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+    z-index: 2;
+}
+
+.btn3::after {
+   content: '';
+   position: absolute;
+   width: 52px;
+   height: 52px;
+   border-radius: 50%;
+   background: #1F2A69;
+   transform: rotate(23.72deg);
+   left: 159px;
+top:36px;
+}

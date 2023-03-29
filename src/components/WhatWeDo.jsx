@@ -6,8 +6,8 @@ function WhatWeDo() {
     <>
       <div className={styles.service}>
         <div className={styles.col}>
-          <div className={styles.text_log}>What We Do </div>
-          <h1>Safe & Reliable <span className='db'>Cargo Solutions</span></h1>
+          <div className='text_log'>What We Do </div>
+          <h1 className='text_hub' >Safe & Reliable <span className='db'>Cargo Solutions</span></h1>
         </div>
         <div className={styles.col}>
           <div className={styles.col_wrap}>

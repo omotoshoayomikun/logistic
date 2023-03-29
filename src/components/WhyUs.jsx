@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/WhyUs.module.css';
+import { Btn3 } from './Forms/Buttons';
 
 function WhyUs() {
 
@@ -33,7 +34,7 @@ function WhyUs() {
                 <div className={styles.card}>
                     <div className="">
                         <div className={styles.text_log}>Why Us </div>
-                        <h1 className={styles.text_h1}>We provide full range global logistics solution</h1>
+                        <h1 className='text_hub'>We provide full range global logistics solution</h1>
                         <p className={styles.text_p}>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.</p>
                         <br />
                         <p className={styles.text_p}>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
@@ -72,8 +73,8 @@ function WhyUs() {
                     </div>
 
                 <div className={styles.section_3}>
-                    <h2>Transporting Across The World</h2>
-                    <div className="df">
+                    <h2 className='text_hub'>Transporting Across The World</h2>
+                    <div className={styles.row_}>
                         {
                             figure.map(fig => (
                                 <div className={styles.col_}>
@@ -83,6 +84,8 @@ function WhyUs() {
                             ))
                         }
                     </div>
+                    <Btn3 text='More Work' />
+                    <div className={styles.dec}></div>
                 </div>
                 </section>
             </div>
