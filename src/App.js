@@ -6,6 +6,7 @@ import WhatWeDo from './components/WhatWeDo';
 import WhyUs from './components/WhyUs';
 import Testimonial from './components/Testimonial';
 import WhyChoose from './components/WhyChoose';
+import The_Transporters from './components/The_Transporters';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <WhyUs />
     <Testimonial />
     <WhyChoose />
+    <The_Transporters />
     </>
   );
 }
