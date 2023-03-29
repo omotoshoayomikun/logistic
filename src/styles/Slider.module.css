@@ -1,0 +1,123 @@
+.slider {
+    width: 100%;
+    height: calc(875px);
+    background: url('../../public/imgs/bg.png') center no-repeat;
+    margin-top: 0;
+    color: var(--white);
+}
+
+.nav {
+    width: 100%;
+    height: 78px;
+    display: flex;
+    background: rgba(9, 18, 66, 0.25);
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_links {
+    margin-right: 277px;
+}
+
+.nav_links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_links li {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.nav_links li:first-of-type {
+    padding-left: 0px;
+}
+.nav_links li:last-of-type {
+    padding-right: 0px;
+    border-right: none;
+}
+
+.nav_links a {
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none;  
+}
+
+.social {
+
+}
+
+.social ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-right: 24px;
+}
+
+.social li:last-of-type {
+    padding-right: 50px;
+}
+
+.social a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.text_container {
+    width: 571px;
+    height: calc(100% - 78px);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px; */
+    margin-left: 80px;
+    margin-top: 176px;
+}
+
+.text_log {
+    width: max-content;
+    background: rgba(4, 28, 55, 0.5);
+    font-size: 14px;
+    padding: 3px 9px;
+    font-family: rubik-regular, serif;
+    font-weight: 400;
+    position: relative;
+}
+
+.text_log::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 23px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.text_container h1 {
+    font-family: rubik-bold, serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 71.1px;
+
+}
+
+.text_container h1 span {
+    display: block;
+}
+
+.text_container p {
+    font-family: rubik-regular, serif;
+    font-size: 16px;
+    line-height: 24.24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+ul {
+    list-style: none;
+}

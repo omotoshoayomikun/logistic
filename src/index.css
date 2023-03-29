@@ -1,13 +1,76 @@
-body {
+:root {
+  --white: #FFFFFF;
+  --light-brown: rgba(232, 232, 232, 0.5);
+  --dark-text: #1C1F35;
+  --light-text: #666C89;
+
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+
+}
+
+body {
+  font-family: krub-regular,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: krub-regular;
+  src: url('./fonts/Krub/Krub-Regular.ttf');
+}
+
+@font-face {
+  font-family: krub-medium;
+  src: url('./fonts/Krub/Krub-Medium.ttf');
+}
+
+@font-face {
+  font-family: rubik-bold;
+  src: url('./fonts/Rubik/static/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: rubik-semibold;
+  src: url('./fonts/Rubik/static/Rubik-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: rubik-regular;
+  src: url('./fonts/Rubik/static/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: rubik-medium;
+  src: url('./fonts/Rubik/static/Rubik-Medium.ttf');
+}
+
+@font-face {
+  font-family: league-regular;
+  src: url('./fonts/League_Spartan/static/LeagueSpartan-Regular.ttf');
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.db {
+  display: block;
+}
+
+.df {
+  display: flex;
+}
+
+.ai {
+  align-items: center;
+}
+
+.mb22 {
+  margin-bottom: 22px;
 }

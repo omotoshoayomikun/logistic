@@ -1,0 +1,40 @@
+.btn1 {
+    font-family: krub-regular, serif;
+    width: 216px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #23212A;
+    border: none;
+    cursor: pointer;
+}
+.btn2 {
+    font-family: krub-regular, serif;
+    width: 194px;
+    height: 60px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #23212A;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn2::after {
+   content: '';
+   position: absolute;
+   width: 68px;
+   height: 105.09px;
+   border-radius: 50%;
+   background: var(--white);
+   transform: rotate(23.72deg);
+   left: 145px;
+top: 20px;
+}
