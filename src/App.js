@@ -9,6 +9,7 @@ import WhyChoose from './components/WhyChoose';
 import The_Transporters from './components/The_Transporters';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <The_Transporters />
     <Contact />
     <Blog />
+    <Footer />
     </>
   );
 }
