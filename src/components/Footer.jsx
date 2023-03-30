@@ -70,7 +70,34 @@ function Footer() {
             <div style={{ marginBottom: '20px' }}>
               <TextInput {...input} />
             </div>
-            <Btn4 text='Send Now' />
+            <div className="df ai jc-sb">
+              <Btn4 text='Send Now' style={{ width: '148px', height: '60px' }} />
+              <div>
+                <img src="/imgs/linkdin.png" className={styles.icon_img} alt="" />
+                <img src="/imgs/twitter.png" className={styles.icon_img} alt="" />
+                <img src="/imgs/facebook.png" className={styles.icon_img} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+          <hr />
+        <section>
+          <div className={`df jc-sb ${styles.foot_b}`}>
+            <p>Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
+            <ul className={styles.footer_ul}>
+              <li>
+                <a href="">Style Guide</a>
+              </li>
+              <li>
+                <a href="">Licenses</a>
+              </li>
+              <li>
+                <a href="">Changelog</a>
+              </li>
+              <li>
+                <a href="">Password</a>
+              </li>
+            </ul>
           </div>
         </section>
       </footer>

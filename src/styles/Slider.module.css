@@ -23,6 +23,9 @@
     display: flex;
     margin: 0;
     padding: 0;
+    font-weight: 600;
+    color: var(--white);
+    text-decoration: none; 
 }
 
 .nav_links li {
@@ -44,10 +47,8 @@
     text-decoration: none;  
 }
 
-.nav_links ul {
-    font-weight: 600;
-    color: var(--white);
-    text-decoration: none;  
+.nav_links a:focus {
+    color: red;
 }
 
 .social {

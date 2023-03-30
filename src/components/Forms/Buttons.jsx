@@ -21,8 +21,8 @@ export const Btn3 = ({text}) => {
   )
 }
 
-export const Btn4 = ({text}) => {
+export const Btn4 = ({text, style}) => {
   return (
-    <button className={styles.btn4}>{text}</button>
+    <button className={styles.btn4} style={style}>{text}</button>
   )
 }
