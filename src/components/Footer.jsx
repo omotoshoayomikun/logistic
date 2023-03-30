@@ -16,7 +16,7 @@ function Footer() {
         <img src="/imgs/seal.png" className={styles.bg} alt="" />
         <nav>
           <ul className={styles.ul}>
-            <li>
+            <li className={styles.lodh}>
               <a href="">
                 <img src="/imgs/logo.png" className={styles.logo} alt="" />
               </a>

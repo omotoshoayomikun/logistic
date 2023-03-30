@@ -26,10 +26,10 @@ function Testimonial() {
           <div className="text_hub">What Our Customer Say</div>
           <div className={` df ${styles.arrow_cont}`}>
             <div className={styles.arrow}>
-              <img src="" alt="" />
+              {/* <img src="" alt="" /> */}
             </div>
             <div className={styles.arrow}>
-              <img src="" alt="" />
+              {/* <img src="" alt="" /> */}
             </div>
           </div>
         </div>

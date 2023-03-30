@@ -12,7 +12,7 @@
     height: 118px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     margin-top: -5px;
     margin-bottom: 30px;
 }
@@ -30,6 +30,20 @@
     padding: 0;
     list-style: none;
     display: flex;
+    gap: 54px;
+}
+
+.ul li {
+    display: flex;
+    align-items: center;
+
+}
+
+.lodh {
+    background: #091242;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .ul a {
@@ -49,6 +63,7 @@
 .logo {
     width: 210.13px;
     height: 36px;
+    margin-left: 59px;
 }
 
 

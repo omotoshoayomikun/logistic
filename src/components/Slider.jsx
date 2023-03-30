@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from '../styles/Slider.module.css'
 import { Btn1, Btn2 } from './Forms/Buttons'
 
 function Slider() {
+
+    const [activeLink, setactiveLink] = useState('home')
+
+    const handleActiveLink = (nav) => {
+        setactiveLink(nav)
+    }
+
+
     return (
         <>
             <div className={styles.slider}>
@@ -10,19 +18,19 @@ function Slider() {
                     <div className={styles.nav_links}>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a onClick={() => handleActiveLink('home')} className={`${activeLink === 'home' ? styles.active : ''}`} href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#about">About</a>
+                                <a onClick={() => handleActiveLink('about')} className={`${activeLink === 'about' ? styles.active : ''}`} href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#">Pages</a>
+                                <a onClick={() => handleActiveLink('pages')} className={`${activeLink === 'pages' ? styles.active : ''}`} href="#">Pages  <img src="/imgs/down.png" alt="" /></a>
                             </li>
                             <li>
-                                <a href="#project">Project</a>
+                                <a onClick={() => handleActiveLink('project')} className={`${activeLink === 'project' ? styles.active : ''}`} href="#project">Project</a>
                             </li>
                             <li>
-                                <a href="#contact">Contact</a>
+                                <a onClick={() => handleActiveLink('contact')} className={`${activeLink === 'contact' ? styles.active : ''}`} href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>

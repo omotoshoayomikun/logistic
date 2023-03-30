@@ -50,14 +50,14 @@ function Blog() {
   return (
     <>
       <div className={styles.container}>
-        <div className='text_log'>Our Blog</div>
-        <div className="text_hub">Our Latest News</div>
+        <div className='text_log text-center'>Our Blog</div>
+        <div className="text_hub text-center">Our Latest News</div>
         <div className={styles.row}>
           {
             datas.map((data, i) => (
               <div key={i} className={styles.col}>
                 <div>
-                  <a href="" className={styles.link}>
+                  <a href="#" className={styles.link}>
                     <img src={data.image} className={styles.image_wrap} alt="" />
                   </a>
                 </div>

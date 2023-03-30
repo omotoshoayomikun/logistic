@@ -41,14 +41,20 @@
     border-right: none;
 }
 
+.nav_links li:nth-of-type(3) a {
+    position: relative;
+}
+
+
 .nav_links a {
     font-weight: 600;
     color: var(--white);
     text-decoration: none;  
+    padding-bottom: 26px;
 }
 
-.nav_links a:focus {
-    color: red;
+.active {
+    border-bottom: 2px solid var(--white);
 }
 
 .social {
@@ -77,7 +83,7 @@
 
 .text_container {
     width: 571px;
-    height: calc(100% - 78px);
+    /* height: calc(100% - 78px); */
     /* display: flex;
     flex-direction: column;
     justify-content: center;
