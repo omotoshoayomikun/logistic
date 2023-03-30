@@ -1,0 +1,135 @@
+.container {
+    margin-bottom: 98px;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.col {
+    display: flex;
+    gap: 20px;
+    padding: 29px 0;
+    border-top: 1px solid #D6D6D6;
+}
+
+.col:last-child {
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 35px;
+}
+
+.link {
+    width: 453px;
+    height: 300px;
+    position: relative;
+    display: block;
+    transition: all 0.2s;
+}
+
+.link::after {
+    content: 'Read More';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 80%;
+    background: rgba(28, 31, 53, 0.91);
+    opacity: 0;
+    /* z-index: 1000; */
+}
+
+.col:hover .link::after {
+opacity: 1;
+}
+
+.image_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.calender {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_cal {
+    width: 51.33px;
+    height: 56px;
+    /* margin-left: auto; */
+}
+
+.date {
+    font-family: rubik-bold;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 47.4px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1C1F35;
+    margin: 0;
+}
+
+.month {
+    font-family: krub-medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.blog {
+    width: 335px;
+    height: inherit;
+    border-left: 1px solid #D6D6D6;
+    padding: 0;
+    padding-left: 29px;
+}
+
+.blog h2 {
+    font-family: rubik-regular;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+    transition: all 0.2s;
+}
+
+.col:hover .blog h2 {
+    color: #FFBE34;
+    cursor: pointer;
+}
+
+.blog p {
+    font-family: krub-regular;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666C89;
+    margin-bottom: 18px;
+}
+
+.blog ul {
+    font-family: krub-regular;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

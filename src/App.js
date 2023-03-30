@@ -8,6 +8,7 @@ import Testimonial from './components/Testimonial';
 import WhyChoose from './components/WhyChoose';
 import The_Transporters from './components/The_Transporters';
 import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <WhyChoose />
     <The_Transporters />
     <Contact />
+    <Blog />
     </>
   );
 }
