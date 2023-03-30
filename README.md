@@ -5,6 +5,14 @@ This is a single-page website built using React for a logistics company that pro
 ## Project structure:
 The code base is organized into separate components, including Header, Slider, Testimonial, Blog, The_Transporters, WhatWeDo, WhyChoose, WhyUs, Footer, Services, Pricing, and Contact. The main file is App.js, which renders the components. 
 
+* Header: Displays the company logo, email and contact .
+* Slider: Provide a navigation links to different sections of the page and also links to the company social media.
+* WhatWeDo: Provides information about the company's transportation and delivery services, including a brief description of each service and an image.
+* WhyUs: Provides information about the company's total Delivered Packages and Satisfied Clients.
+* Testimonial: Display all the positive review from customers.
+* Contact: Provides a contact form for users to submit inquiries or requests for quotes.
+* Footer: Displays the company's address, phone number, and social media links.
+
 ## Dependencies:
 This project requires Node.js and the React. These can be installed using npm, the Node.js package manager.
 

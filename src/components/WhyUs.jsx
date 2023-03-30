@@ -66,9 +66,9 @@ function WhyUs() {
                             <p>Delivered Packages</p>
                         </div>
                         <div className={styles.fig_cont}>
-                            <h1 className={styles.fig_h1}>1294</h1>
+                            <h1 className={styles.fig_h1}>3594</h1>
                             <span className={styles.fig_pattern}></span>
-                            <p>Delivered Packages</p>
+                            <p>Satisfied Clients</p>
                         </div>
                     </div>
 
