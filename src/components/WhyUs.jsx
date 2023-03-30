@@ -31,7 +31,7 @@ function WhyUs() {
         <>
             <div className={styles.why_container}>
                 <div className={styles.bg_image}></div>
-                <div className={styles.card}>
+                <div id='project' className={styles.card}>
                     <div className="">
                         <div className={styles.text_log}>Why Us </div>
                         <h1 className='text_hub'>We provide full range global logistics solution</h1>

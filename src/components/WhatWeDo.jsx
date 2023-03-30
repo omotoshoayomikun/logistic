@@ -4,7 +4,7 @@ import styles from '../styles/WhatWeDo.module.css';
 function WhatWeDo() {
   return (
     <>
-      <div className={styles.service}>
+      <div id='about' className={styles.service}>
         <div className={styles.col}>
           <div className='text_log'>What We Do </div>
           <h1 className='text_hub' >Safe & Reliable <span className='db'>Cargo Solutions</span></h1>

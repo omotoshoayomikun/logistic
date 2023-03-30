@@ -1,0 +1,59 @@
+.input {
+    width: 100%;
+    padding: 0px 30px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #4E5683;
+    color: var(--white);
+    font-family: league-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    border-radius: 0;
+    display: block;
+}
+
+.input::placeholder {
+    color: var(--white);
+    font-family: league-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.textarea {
+    width: 100%;
+    padding: 21px 24px;
+    height: 154px;
+    background: transparent;
+    border: 1px solid #4E5683;
+    color: var(--white);
+    font-family: league-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    border-radius: 0;
+    display: block;
+}
+
+
+.textarea::placeholder {
+    color: var(--white);
+    font-family: league-regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+
+.textarea:focus {
+    outline: none;
+}

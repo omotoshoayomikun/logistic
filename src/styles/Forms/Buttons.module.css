@@ -69,3 +69,23 @@ top: 20px;
    left: 159px;
 top:36px;
 }
+
+
+.btn4 {
+    font-family: krub-regular, serif;
+    width: 194px;
+    height: 60px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+    color: #23212A;
+}

@@ -17,6 +17,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
 @font-face {
@@ -132,10 +134,31 @@ code {
   margin-left: 9px;
 }
 
+.text-sub-kit {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 
 .text-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.white {
+  color: var(--white)
+}
+
+
+.mt32 {
+  margin-top: 32px;
+}
+
+.flex-1 {
+  flex: 1;
 }

@@ -7,6 +7,7 @@ import WhyUs from './components/WhyUs';
 import Testimonial from './components/Testimonial';
 import WhyChoose from './components/WhyChoose';
 import The_Transporters from './components/The_Transporters';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Testimonial />
     <WhyChoose />
     <The_Transporters />
+    <Contact />
     </>
   );
 }
