@@ -81,13 +81,13 @@ code {
 
 
 .text_hub {
-    font-family: rubik-bold, serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 41px;
-    color: var(--dark-text);
-    margin-bottom: 12px;
+  font-family: rubik-bold, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  color: var(--dark-text);
+  margin-bottom: 12px;
 }
 
 
@@ -104,7 +104,6 @@ code {
   margin-bottom: 12px;
 }
 
-
 .text_log::before {
   content: '';
   position: absolute;
@@ -113,4 +112,30 @@ code {
   width: 4px;
   height: 23px;
   background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.text-kit {
+  font-family: rubik-semibold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.text-skit {
+  font-family: krub-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  margin-left: 9px;
+}
+
+
+.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }

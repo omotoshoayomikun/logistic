@@ -1,3 +1,40 @@
 .container {
-    text-align: center;
+    width: 100%;
+    margin-bottom: 101px;
+}
+
+.row {
+    display: flex;
+    gap: 54px;
+    justify-content: center;
+    margin-top: calc(40px);
+}
+
+.image {
+    width: 364px;
+    height: 426px;
+    margin-bottom: -5px;
+}
+
+.col_footer {
+    width: 364px;
+    height: 112px;
+    background: #1C1F35;
+    padding: 0 34px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--white);
+    position: relative;
+}
+
+.social_media {
+    position: absolute;
+    right: 0;
+    bottom: 80.89px;
+    display: flex;
+    padding: 20.07px 17.6px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    gap: 25.09px;
 }
